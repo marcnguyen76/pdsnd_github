@@ -2,7 +2,7 @@
 December 14, 2018
 
 ### Project Title
-Bike Share Data
+bikeshare
 
 ### Description
 In this project, you will use data provided by Motivate, a bike share system provider for many major cities 
@@ -16,5 +16,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-udacity.com
+
 
