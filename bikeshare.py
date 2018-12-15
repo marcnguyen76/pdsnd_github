@@ -186,6 +186,7 @@ def user_stats(df):
         print('\nGender Counts: No Data')
 
     # TO DO: Display earliest, most recent, and most common year of birth
+	# some data does not contain birth year
     try:
         birth_year_min = df['Birth Year'].min()
         print('\nBirth Year Minimum: ', birth_year_min)
@@ -208,6 +209,8 @@ def main():
         # Display raw data with user input
         more_data = True
         line_count = 5
+		# Display raw data 5 lines at a time until user exit by typing 'No' or continue to press ENTER to
+		# continue showing data
         while more_data:
             see_data = input("Would you like to see the first 5 lines of raw data ('Yes' or 'No')\n>>>")
             see_data = see_data.lower()
