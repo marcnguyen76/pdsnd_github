@@ -179,6 +179,7 @@ def user_stats(df):
         print('\nGender Counts: No Data')
 
     # TO DO: Display earliest, most recent, and most common year of birth
+	# some data does not contain birth year
     try:
         birth_year_min = df['Birth Year'].min()
         print('\nBirth Year Minimum: ', birth_year_min)
